@@ -1,0 +1,5 @@
+print("Hello World!")
+print('Hello Again!')
+print("This is a 'test' file")
+print('Yes, a "test" file')
+print('Trying accents éàï')
