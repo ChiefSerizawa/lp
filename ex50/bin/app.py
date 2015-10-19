@@ -2,7 +2,7 @@ import web
 
 urls = ('/index', 'Index', '/hello', 'Hello')
 app = web.application(urls, globals())
-render = web.template.render('templates/')
+render = web.template.render('templates/', base = 'layout')
 
 class Index(object):
     def GET(self):

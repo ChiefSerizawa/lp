@@ -1,10 +1,4 @@
 $def with (greeting)
-<html>
-    <head>
-        <title> Index </title>
-    </head>
-
-    <body>
         $if greeting:
             I just wanted to say <em style="color: green; font-size: 2em;">$greeting</em>
         $else:
@@ -12,5 +6,8 @@ $def with (greeting)
         <form action="/index" method="POST">
             <button name="submit">Back</button>
         </form>
-    </body>
-</html>
+
+
+        <form action="http://google.com">
+                <input type="submit" value="Go to Google">
+        </form>
